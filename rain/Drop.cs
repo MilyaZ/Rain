@@ -32,7 +32,7 @@ namespace rain
 
             X = rand.Next(-r.Width, r.Width*2);
             Y = 0;
-            dy = 2;
+            dy = 10;
             dx = Program.trackBar1_Value;
         }
        
