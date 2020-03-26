@@ -30,7 +30,7 @@ namespace rain
             Update(r);
             if (rand == null) rand = new Random();
 
-            X = rand.Next(0, r.Width);
+            X = rand.Next(-r.Width, r.Width*2);
             Y = 0;
             dy = 2;
             dx = Program.trackBar1_Value;
